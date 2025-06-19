@@ -1,4 +1,4 @@
-import React from "React"
+import React from 'react'
 import bigAdImage from '../assets/7.png';
 
 const BigAd = () => {
