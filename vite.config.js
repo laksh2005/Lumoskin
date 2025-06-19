@@ -6,28 +6,14 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   build: {
     rollupOptions: {
-      external: ['react', 'react-dom'],
       output: {
-        globals: {
-          react: 'React',
-          'react-dom': 'ReactDOM'
-        },
-        manualChunks: {
-          'react-vendor': ['react', 'react-dom'],
-        }
+        chunkFileNames: 'assets/[name]-[hash].js',
+        entryFileNames: 'assets/[name]-[hash].js',
+        assetFileNames: 'assets/[name]-[hash].[ext]'
       }
-    },
-    commonjsOptions: {
-      include: [/node_modules/],
-      requireReturnsDefault: 'auto'
     }
   },
   optimizeDeps: {
     include: ['react', 'react-dom']
-  },
-  resolve: {
-    alias: {
-      react: 'react'
-    }
   }
 })
