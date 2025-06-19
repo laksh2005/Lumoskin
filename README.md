@@ -1,12 +1,88 @@
-# React + Vite
+# 🌿 LUMOSKIN
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+LUMOSKIN is a modern, responsive e-commerce website for natural skincare products, built with React and Tailwind CSS. It features a beautiful, minimalist design with smooth animations and a focus on user experience.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Elegant loading screen with smooth transitions
+- Responsive design that works on all devices
+- Modern UI with custom animations
+- Product showcases and categories
+- FAQ section
+- Fast and optimized performance
 
-## Expanding the ESLint configuration
+## 🚀 Quick Start
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+Make sure you have the following installed:
+- Node.js (v16 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/yourusername/lumoskin.git
+cd lumoskin
+```
+
+2. Install dependencies
+```bash
+npm install
+# or
+yarn
+```
+
+3. Start the development server
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+4. Open your browser and visit `http://localhost:5173`
+
+### Building for Production
+
+To create a production build:
+```bash
+npm run build
+# or
+yarn build
+```
+
+To preview the production build locally:
+```bash
+npm run preview
+# or
+yarn preview
+```
+
+## 🛠 Tech Stack
+
+- React 19
+- Vite
+- Tailwind CSS
+- GSAP (for animations)
+
+## 📝 Project Structure
+
+```
+lumoskin/
+├── src/
+│   ├── components/    # React components
+│   ├── assets/       # Images and SVGs
+│   ├── App.jsx       # Main App component
+│   └── main.jsx      # Entry point
+├── public/           # Static files
+└── index.html        # HTML template
+```
+
+## 🎨 Customization
+
+The site uses Tailwind CSS for styling. You can customize colors, fonts, and other design tokens in the `tailwind.config.js` file.
+
+## 📄 License
+
+This project is open source and available under the MIT License.
