@@ -1,4 +1,9 @@
 import React, { useState, useEffect } from 'react';
+import cartSvg from '../assets/cart-svg.png';
+import heartSvg from '../assets/heart-svg.png';
+import avatarSvg from '../assets/avatar-svg.png';
+import heroImage from '../assets/1.png';
+import productImage from '../assets/2.png';
 
 const Hero = () => {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -70,11 +75,11 @@ const Hero = () => {
           </div>
           <div className="flex items-center gap-4">
             <div className="flex items-center gap-1 cursor-pointer text-sm">
-              <img src="src/assets/cart-svg.png" alt="cart" className="w-4 h-4" />
+              <img src={cartSvg} alt="cart" className="w-4 h-4" />
               <span>(1)</span>
             </div>
-            <img src="src/assets/heart-svg.png" alt="wishlist" className="w-4 h-4 cursor-pointer" />
-            <img src="src/assets/avatar-svg.png" alt="profile" className="w-4 h-4 cursor-pointer" />
+            <img src={heartSvg} alt="wishlist" className="w-4 h-4 cursor-pointer" />
+            <img src={avatarSvg} alt="profile" className="w-4 h-4 cursor-pointer" />
           </div>
         </nav>
 
@@ -96,10 +101,10 @@ const Hero = () => {
                 GLOW <br /> NATUR- <br /> ALLY
               </h1>
               <div className="relative w-full max-w-[500px] mt-4">
-                <img src="src/assets/1.png" alt="Hero" className="w-full h-auto rounded-2xl fade-in" />
+                <img src={heroImage} alt="Hero" className="w-full h-auto rounded-2xl fade-in" />
                 <div className="absolute left-1/2 bottom-6 transform -translate-x-1/2 bg-[#F6F7E9] py-3 px-6 rounded-full flex items-center gap-4 shadow-lg w-[90%] max-w-[370px] border border-[#e5e5e5]">
                   <div className="w-9 h-9 rounded-full overflow-hidden bg-[#F5F5F5] flex items-center justify-center border border-[#e5e5e5]">
-                    <img src="src/assets/2.png" alt="icon" className="w-6 h-6 object-contain" />
+                    <img src={productImage} alt="icon" className="w-6 h-6 object-contain" />
                   </div>
                   <p className="text-[14px] md:text-[15px] text-[#333] font-medium">
                     While giving you an invigorating cleansing experience.
@@ -110,7 +115,7 @@ const Hero = () => {
 
             <div className="flex justify-center md:justify-end">
               <div className="w-[140px] h-[140px] md:w-[180px] md:h-[180px] mt-8 md:mt-[-350px] bg-white rounded-lg overflow-hidden shadow-lg fade-in-delay">
-                <img src="src/assets/2.png" alt="Product" className="w-full h-full object-cover" />
+                <img src={productImage} alt="Product" className="w-full h-full object-cover" />
               </div>
             </div>
           </div>
