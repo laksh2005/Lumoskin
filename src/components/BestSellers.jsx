@@ -41,7 +41,7 @@ const BestSellers = () => {
         </h2>       
         <div className="flex items-center gap-6 justify-center mt-2 md:mt-0">
   <button
-    className="border rounded-full w-16 h-16 opacity-30 cursor-not-allowed flex items-center justify-center"
+    className="border rounded-full w-11 h-11 opacity-30 cursor-not-allowed flex items-center justify-center"
   >
     <img
       alt="Previous"
@@ -51,7 +51,7 @@ const BestSellers = () => {
   </button>
 
   <button
-    className="border bg-[#2D3B36] rounded-full w-16 h-16 cursor-pointer hover:scale-105 transition-all ease-in-out flex items-center justify-center"
+    className="border bg-[#2D3B36] rounded-full w-11 h-11 cursor-pointer hover:scale-105 transition-all ease-in-out flex items-center justify-center"
   >
     <img
       alt="Next"
