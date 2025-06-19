@@ -31,7 +31,7 @@ const Categories = () => {
   const categories = ['NEW ARRIVAL', 'CLEANSING', 'ACNE FIGHTER', 'ANTI AGING'];
 
   return (
-    <section className="bg-[#FAFAF2] py-16 font-['Inter']">
+    <section className="bg-[#FEFFF4] py-16 font-['Inter']">
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-medium mb-4">Feel Beautiful Inside and Out</h2>

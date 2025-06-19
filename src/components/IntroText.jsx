@@ -14,8 +14,7 @@ const lines = [
 ];
 
 export default function IntroText() {
-	return (
-		<section className="w-full bg-[#FAFAF0] pt-28 mb-20 pb-4 px-4 md:px-8 lg:px-12 animate-[fadeIn_1.2s_ease-out] font-['Inter']"
+	return (    <section className="w-full bg-[#FEFFF4] pt-28 mb-20 pb-4 px-4 md:px-8 lg:px-12 animate-[fadeIn_1.2s_ease-out] font-['Inter']"
 			style={{ animationFillMode: 'forwards' }}>
 			<style>{`
         @keyframes fadeIn {

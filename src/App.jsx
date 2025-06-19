@@ -15,14 +15,14 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 3000);
+    }, 1500);
     return () => clearTimeout(timer);
   }, []);
 
   return (
     <>
       <LoadingScreen isVisible={isLoading} />
-      <div className="bg-[#FAFAF0] min-h-screen">
+      <div className="bg-[#FEFFF4] min-h-screen">
         <Hero />
         <IntroText />
         <WhyProducts />

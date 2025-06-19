@@ -26,7 +26,7 @@ const products = [
 
 const BestSellers = () => {
   return (
-    <section className="bg-[#f8f8ed] min-h-screen py-12 px-4 md:px-12 font-inter flex flex-col items-center">
+    <section className="bg-[#FEFFF4] min-h-screen py-12 px-4 md:px-12 font-inter flex flex-col items-center">
       <div className="w-full max-w-6xl flex flex-col md:flex-row md:items-center md:justify-between mb-8">
         <div className="flex items-center gap-2 mb-4 md:mb-0">
           <button className="px-5 py-1 border border-gray-900 rounded-full text-sm font-medium flex items-center gap-2 bg-[#f6f8e5]">
@@ -38,10 +38,26 @@ const BestSellers = () => {
           Skincare That Brings Out
           <br className="hidden md:block" />
           Your Natural Radiance
-        </h2>
+        </h2>       
         <div className="flex items-center gap-6 justify-center mt-2 md:mt-0">
-          <button class="w-10 h-10 flex items-center justify-center hover:bg-gray-200 transition"><img alt="Headset Icon" class="w-10 h-10 object-contain bg-[#f8f8ed]" src={leftArrow} /></button>
-          <button class="w-10 h-10 flex items-center justify-center hover:bg-gray-200 transition"><img alt="Headset Icon" class="w-10 h-10 object-contain bg-[#f8f8ed]"  src={rightArrow} /></button>
+  <button
+    className="border rounded-full w-16 h-16 opacity-30 cursor-not-allowed flex items-center justify-center"
+  >
+    <img
+      alt="Previous"
+      className="translate-x-1"
+      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAAQCAYAAACLFVaTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADNSURBVHgBzZa9DsIgEIAPautk4iMw6tCkxqSxMSb0DXxTH6Ed2WR0k0dwtUSQ69Bo0Zn7Fv6WjzsuHMAfhKzWZVOfgQD81+ZGVmJli2s4vWybfXLRSBIFc1t0YSqYB7P0uYbEsM/FXJA73mqlDCRmkqQqiIySlAURRl0QYeWxvodRAGE4A/oseM5bZ13nMZoh3dYN7U1pA4QYA1nJg6AsOmWbsujXk6QqGtXNXDQrhp3u9QMSEv3dulcGiynYm3AF8XpmEqiCES1PNFq1N5v1fbqalD/PAAAAAElFTkSuQmCC"
+    />
+  </button>
+
+  <button
+    className="border bg-[#2D3B36] rounded-full w-16 h-16 cursor-pointer hover:scale-105 transition-all ease-in-out flex items-center justify-center"
+  >
+    <img
+      alt="Next"
+      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAQCAYAAABgIu2QAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABwSURBVHgB7dYxCsAgDIXh2BN4hByp91/sDYRScSm+Rkrp1M3CE/KBg7j8EJCIkDixrxVZhVmPbDhgJ1HHAjk2lDRJbFWP/cP0saFfhN+2yBSCULLvSvvI79EXG31VYeORo3jkSO9SQhz5gMUCiF/vF3xm3gcdama8AAAAAElFTkSuQmCC"
+    />
+  </button>
         </div>
       </div>
 

@@ -22,7 +22,7 @@ const features = [
 
 export default function WhyProducts() {
   return (
-    <section className="w-full bg-[#FAFAF0] py-20 px-4 md:px-16 lg:px-24 flex flex-col md:flex-row gap-8 md:gap-16 items-start font-inter">
+    <section className="w-full bg-[#FEFFF4] py-20 px-4 md:px-16 lg:px-24 flex flex-col md:flex-row gap-8 md:gap-16 items-start font-inter">
       <div className="flex-1 max-w-[600px]">
         <div className="inline-flex items-center gap-2 px-6 py-2.5 mb-12 bg-white rounded-full border border-[#E5E7EB] shadow-sm">
           <div className="w-2 h-2 bg-black rounded-full"></div>
